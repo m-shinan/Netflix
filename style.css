@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+}
+
+.selectpicker {
+   
+   border-radius: 5px;
+   fill: transparent;
+   height: 35px;
+   margin-right: 10px;
+   line-height: 1.25rem;
+   color: inherit;
+   filter: opacity(100%);
+   background: transparent;
+   background-clip: padding-box;
+   font: inherit;
+   fill: currentColor;
+   min-width: auto;
+   width: auto;
+
+   
+    background: #ffffff00;
+    color: #ffffff;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+
+.container-fluid{
+    height: 800px;
+    width: 100%;
+}
+
+.hero-text{
+    margin-top: 150px;
+    color: white;
+}
+
+.navbar{
+    margin-top: 0%;
+    padding-top: 10px;
+}
+
+
+.home{
+      
+  background-image: linear-gradient(to bottom right, rgb(16, 15, 15), rgba(11, 11, 9, 0.797)), url("/netflix\ home.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+ .secondpage{
+    background-image: url(/black-contour-f41038db\ \(1\).svg);
+ }
+
+.footer{
+    color: gray;   
+}
+
+.custom-link {
+    color: gray;  
+  }
+
+  .custom-link:hover {
+    color: gray; 
+    text-decoration: none;
+  }
+
+  .mail div{
+    float: left;
+    clear: none;
+    margin-right: 10px;
+  }
+
+  .cards-netflix{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    
+    
+  }
+  div.card-body.reason {
+    background-image: linear-gradient( rgb(56, 29, 112), rgb(14, 14, 14, 45));   
+  }
+
+  .card-body{
+    padding: 50px;
+  }
+
+  .box{
+    margin: 10px;
+    background-image: url();
+  }
+
+
+.hcard{
+    font-size: 30px;
+}
+
+.mobile{
+    display: flex;
+    justify-content: center;
+}
+
+.game{
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgb(56, 3, 45), rgba(14, 14, 14, 45)); 
+}
+
+.accordion{
+    margin: 60px 0;
+    width: 100%;
+    max-width: 1000px;   
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion li label::after{
+    color: white;
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    color: white;
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+div.row.card-netflix{
+    display: flex;
+    align-items: stretch;
+}
+
+
+@media (max-width: 499px) {
+
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
+    .btn-sign-in{
+        width: 60px;
+        height: 30px;
+
+    }
+    .sign-in{
+        font-size: 10px;
+    }
+    .lan{
+        width: 60px;
+        height: 30px;
+    }
+    .lan .span{
+        display: none;
+    }
+    .form-control{
+        width: 100%;
+    }
+    
+    
+    .form-floating{
+        width: 100%;
+    }
+    .cards-netflix{
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    .link1{
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
+
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+
+}
+
+@media (min-width: 1536px) {
+
+}
+
+
